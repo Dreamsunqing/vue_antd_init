@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+node_modules/
+dist/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Project specific files
+*.local
+*.swp
+
+# Mac
+.DS_Store
+
+# npm
+# dependencies
+/node_modules
+
+# dev dependencies
+/node_modules/!/node_modules
+
+# build outputs
+/dist
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.*
+.idea
+.vscode
+
+# Vite
+.vite/
+
+# Vue
+# vue-tsc output
+*.tsbuildinfo
